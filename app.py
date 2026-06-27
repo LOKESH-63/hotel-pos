@@ -8,6 +8,15 @@ st.set_page_config(
 
 st.title("🏨 Terralogic Hotel POS")
 
-st.write("Welcome to the Hotel POS System.")
+st.markdown("""
+## Welcome
 
-st.info("Use the left sidebar to open Login, Waiter, Kitchen, Cashier, and Manager pages.")
+This Hotel POS has four modules:
+
+- 👨‍🍳 Waiter
+- 🍳 Kitchen
+- 💳 Cashier
+- 📊 Manager
+""")
+
+st.info("Use the left sidebar to open each module.")
