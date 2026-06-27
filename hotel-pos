@@ -1,0 +1,15 @@
+terralogic-hotel-pos/
+│
+├── app.py
+├── config.py
+├── database.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+│
+├── pages/
+├── assets/
+├── data/
+├── models/
+├── services/
+└── utils/
