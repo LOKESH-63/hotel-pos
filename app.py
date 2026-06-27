@@ -1,22 +1,13 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="Hotel POS",
+    page_title="Terralogic Hotel POS",
     page_icon="🏨",
     layout="wide"
 )
 
 st.title("🏨 Terralogic Hotel POS")
 
-st.markdown("""
-## Welcome
+st.write("Welcome to the Hotel POS System.")
 
-This Hotel POS has four modules:
-
-- 👨‍🍳 Waiter
-- 🍳 Kitchen
-- 💳 Cashier
-- 📊 Manager
-""")
-
-st.info("Use the left sidebar to open each module.")
+st.info("Use the left sidebar to open Login, Waiter, Kitchen, Cashier, and Manager pages.")
